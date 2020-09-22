@@ -11,4 +11,5 @@ function calculateTip() {
     display.innerHTML = tipAmount
 }
 
-calculateTip()
+billInput.addEventListener('input', calculateTip)
+tipInput.addEventListener('input', calculateTip)
