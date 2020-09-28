@@ -1,6 +1,8 @@
-const display = document.querySelector('#display')
-const billInput = document.querySelector('#bill')
-const tipInput = document.querySelector('#tip')
+const billInput = document.querySelector('#input-bill')
+const tipInput = document.querySelector('#input-tip')
+const peopleInput = docuemnt.querySelector('#input-people')
+const displayTip = document.querySelector('#display-tip')
+const displayTotal = document.querySelector('#display-total')
 
 function calculateTip() {
     const billValue = billInput.value
