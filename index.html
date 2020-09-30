@@ -3,6 +3,7 @@
     <head>
         <title>Tip Calculator</title>
         <link rel="stylesheet" href="./resources/css/styles.css">
+        <meta charset="ASCII">
     </head>
 
     <body>
@@ -13,11 +14,17 @@
                     <div id="input-side-rectangle-workplace">
                             <div id="input-side-rectangle">
                                 <div id="input-side-bill-text">Bill</div>
-                                <div id="input-side-bill"><input class="input" value="10.00" type="number"></div>
+                                <div id="input-side-bill">
+                                    <input id="input-bill" class="input" value="10.00" type="number">
+                                </div>
                                 <div id="input-side-tip-text">Tip %</div>
-                                <div id="input-side-tip"><input class="input" value="15" type="number"></div>
+                                <div id="input-side-tip">
+                                    <input id="input-tip" class="input" value="15" type="number">
+                                </div>
                                 <div id="input-side-number-people-text">Number of People</div>
-                                <div id="input-side-people"><input class="input" value="1" type="number"></div>
+                                <div id="input-side-people">
+                                    <input id="input-people" class="input" value="1" type="number">
+                                </div>
                             </div>
                     </div>
                     <div id="output-side-rectangle-workplace">
@@ -31,7 +38,7 @@
                                         </div>
                                     </div>
                                     <div id="output-side-tip-person-value-workspace">
-                                        $<span id="output-tip-amount">0.00</span>
+                                        $<span id="display-tip">0.00</span>
                                     </div>
                                 </div>
                                 <div id="output-side-total-content-rectangle">
@@ -42,7 +49,7 @@
                                         </div>
                                     </div>
                                     <div id="output-side-total-person-value">
-                                        $<span id="output-total-amount">0.00</span>
+                                        $<span id="display-total">0.00</span>
                                     </div>
                                 </div>
                             </div>
