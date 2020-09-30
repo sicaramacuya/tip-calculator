@@ -8,13 +8,49 @@
     <body>
         <main>
             <h1>Tip Calculator</h1>
-            <div>
-                <input id="input-bill" value="10.00" type="number">
-                <input id="input-tip" value="15" type="number">
-                <input id="input-people" value="1" type="number">
-                <output id="display-tip">0.00</outuput>
-                <output id="display-total">0.00</output>
-            </div> 
+            <div id="main-rectangle-workplace">
+                <div style="width: 100%; display: flex;">
+                    <div id="input-side-rectangle-workplace">
+                            <div id="input-side-rectangle">
+                                <div id="input-side-bill-text">Bill</div>
+                                <div id="input-side-bill"><input class="input" value="10.00" type="number"></div>
+                                <div id="input-side-tip-text">Tip %</div>
+                                <div id="input-side-tip"><input class="input" value="15" type="number"></div>
+                                <div id="input-side-number-people-text">Number of People</div>
+                                <div id="input-side-people"><input class="input" value="1" type="number"></div>
+                            </div>
+                    </div>
+                    <div id="output-side-rectangle-workplace">
+                        <div id="output-side-rectangle">
+                            <div id="output-side-content">
+                                <div id="output-side-tip-content-rectangle">
+                                    <div id="output-side-tip-person-text-workspace">
+                                        <div id="output-side-tip-person-text">
+                                                <div id="tip-text">Tip</div>
+                                                <div id="tip-per-person-text">per person</div>
+                                        </div>
+                                    </div>
+                                    <div id="output-side-tip-person-value-workspace">
+                                        $<span id="output-tip-amount">0.00</span>
+                                    </div>
+                                </div>
+                                <div id="output-side-total-content-rectangle">
+                                    <div id="output-side-total-person-text-workspace">
+                                        <div id="output-side-total-person-text">
+                                            <div id="total-text">Total</div>
+                                            <div id="total-per-person-text">per person</div>
+                                        </div>
+                                    </div>
+                                    <div id="output-side-total-person-value">
+                                        $<span id="output-total-amount">0.00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
         <script src="./resources/js/scripts.js">
         </script>
