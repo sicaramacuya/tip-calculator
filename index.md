@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Tip Calculator Demostration
 
-You can use the [editor on GitHub](https://github.com/sicaramacuya/tip-calculator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is a demostration of an introductory assignment to learn JavaScript.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The goal was to create a tip calcultor. As an inspiration we where provided with this [example](https://www.google.com/search?q=tip+calculator&oq=tip).
+We where suposed to replicated just the idea, basically the collection of information provided by the user and display the calculations. 
 
-### Markdown
+Because I felt I wasn't skilled enough to create a good markup that allow me to style it well. I self assing the challenge to replicate as similar as I can the example we where provided.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Challenges
 
-```markdown
-Syntax highlighted code block
+There where numerous challenges, as we could expect being this the second "full website" I have made. Meaning, completing a HTML, CSS and JavaScript files. Just for simplicity I provided a list of the problems and some explanation.
 
-# Header 1
-## Header 2
-### Header 3
+Challenges: 
+  - Putting so much information in a little compact card.
+    - If you write in the html file every input element by itself you will see just one under the other. Functional but not even close to have them organized in a card.
+  - Styling practically everyting of the compact card. Every single part: 
+    - Outer borders for all rectangles,
+    - Outer cornes for all rectangles,
+    - Giving the proper space for each word and so on...
+  - Managing the names for the id attribute on the div elements
+    - By copying the example provided I notices they use a lot of div elements so I follow the example and try use div elements. It was a chaos! It took me a long time to figure out the naming. At last, I solve it but what a mess. Still dont feel it was the right way to do it.
 
-- Bulleted
-- List
+Apart from this challenges everything else was very intuitive because the instructions of the assignment where really well written.
 
-1. Numbered
-2. List
+## Solving the challenges
 
-**Bold** and _Italic_ and `Code` text
+Knowing what to do to solve the challenges wasn't to complicated. This was because I use the _Inspect Element_ feature the Firefox browsers. 
 
-[Link](url) and ![Image](src)
-```
+The _Inspect Element_ feature answer me the question of "How could I put so much information in a compact card?". They where using div elements. Using div elements allow me to work on the first and second challenge but also, using the same element brings me to the final challenge. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The naming of the div element using id attributes. If I have to guess I would say I had around 25 div elements. First I was thinking of using numbers but it got really complex really fast so I stick with a sometimes long names but really descriptive ones.
 
-### Jekyll Themes
+## What I got from the assignment?
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sicaramacuya/tip-calculator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Well, before the assignment I was struggling with styling webpages. In fact, I put on hold one really intriguing assignment. Just to have more experience with HTML and CSS before going and tackling it with the best of my abilities which I feel is now, after this assignment. 
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Before, I had no idea of how to move content around in the webpage but now with this challenge I put on myself I definetly fell more comfortable with HTML and CSS.
